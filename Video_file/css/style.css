@@ -1,0 +1,246 @@
+@font-face {
+    font-family: 'Gilroy_Bold';
+    src: url('../font/Gilroy_Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+	overflow: hidden;
+	background-image: url('../images/background.png');
+}
+.footer{
+	width: 100%;
+    position: absolute;
+	bottom: 0;
+	margin-bottom: 16px;
+}
+.footer ul{
+	display: inline-block;
+	font-size: 0;
+	padding: 0;
+}
+.footer ul li{
+	position: relative;
+	display: inline-block;
+	color:#445e64;
+	margin-right: 44px;
+	padding: 0 0 0 30px;
+}
+.footer ul li span{
+	text-transform: uppercase;
+}
+.telephone, .mail{
+	font:17px 'Gilroy_Bold';
+	cursor: pointer;
+}
+.mail{
+	margin-left: 21px;
+}
+.get-text{
+	font:14px 'Gilroy_Bold';
+}
+.ask-text{
+	font: 23px 'Gilroy_Bold';
+}
+.footer ul li:first-child{
+	font: 21px 'Gilroy_Bold';
+	text-align: right;
+}
+.telephone:before{
+	color: #000;
+	content: '';
+    background: url(../images/ic-sprite.png);
+    background-position: 0 0;
+    width: 20px;
+    height: 36px;
+    position: absolute;
+    left: 22px;
+    top: -10px;
+    margin: 0 0 0 -23px;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.telephone:hover:before{
+	background-position: 0 -52px;
+}
+.telephone:hover, .mail:hover{
+	color: #000;
+}
+.mail:before{
+	content: '';
+    background: url(../images/ic-sprite.png);
+    background-position: 153px 0;
+    width: 42px;
+    height: 36px;
+    position: absolute;
+    left: 0;
+    top: -4px;
+    margin: 0 0 0 -23px;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.mail:hover:before{
+	background-position: 153px -52px;
+}
+
+.center-img{
+	/* width: 715px; */
+	/* height: 638px; */
+	width: 500px;
+	height: 500px;
+	margin: 2% auto;
+	position: relative;
+	background-image: url('../images/center-img.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.right-line{
+	position: absolute;
+	top: 336px;
+    right: 94px;
+}
+.facebook{
+	background: url(../images/ic-sprite.png);
+    background-position: 97px 0;
+    width: 42px;
+    height: 40px;
+    display: block;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.facebook:hover{
+	background-position: 97px -52px;
+}
+.instagram:hover{
+	background-position: 42px -52px;
+}
+.face-icon{
+	padding:0 0 20px 0;
+}
+li.face-icon:before{
+	content: '';
+    width: 1px;
+    min-height: 100px;
+    background: #445e64;
+    position: absolute;
+    top: -100px;
+}
+li.face-icon:after{
+	content: '';
+    width: 1px;
+    background: #445e64;
+    min-height: 100px;
+    position: absolute;
+    top: 100px;
+}
+.insta-icon:after{
+	content: '';
+    width: 1px;
+    background: #445e64;
+    min-height: 20px;
+    position: absolute;
+    top: 40px;
+}
+.right-line ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.instagram{
+	background: url(../images/ic-sprite.png);
+    background-position: 42px 0;
+    width: 42px;
+    height: 40px;
+    display: block;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.banner-img{
+	position: relative;
+}
+.bird-img{
+	position: absolute;	
+	top: 0;
+}
+.two-leef{
+	position: absolute;
+    right: 0;
+    top: 54px;
+}
+.video-div{
+	position: absolute;
+	max-width:512px;
+	height: 512px;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	margin: auto;
+}
+#back-img{
+	padding:0;
+}
+.bottom-leef{
+	position: absolute;
+	bottom:0;
+}
+
+/* animate css */
+.left-leef{
+	position: absolute;
+    top: 0;
+	left: 0;
+}
+.right-leef{
+	position: absolute;
+    top: 0;
+	right:0;
+	/* -webkit-animation: right-leef 5s; */
+    /* -webkit-animation-timing-function: linear; */
+	/* -webkit-animation-delay: 4s; */
+	/* animation: right-leef 2s; */
+	/* animation-timing-function: linear; */
+	/* animation-delay: 4s; */
+}
+/* @-webkit-keyframes right-leef { */
+    /* from {right: -254px;top:-170px;} */
+    /* to {right: 0;top:0;} */
+/* } */
+/* @keyframes right-leef { */
+    /* from {right: -254px;top:-170px;} */
+    /* to {right: 0;top:0;} */
+/* } */
+/* @-webkit-keyframes right-leef { */
+    /* from {right: -254px;top:-170px;} */
+    /* to {right: 0;top:0;} */
+/* } */
+/* @keyframes right-leef { */
+    /* from {right: -254px;top:-170px;} */
+    /* to {right: 0;top:0;} */
+/* } */
+
+.animate-zoom {animation:animatezoom 4s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+
+.animate-bottom{position:relative;animation:animatebottom 5s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+
+.buttonleef-animate-bottom{animation:buttonleef-animate 6s}@keyframes buttonleef-animate{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+
+.animate-right{animation:animateright 5s}@keyframes animateright{from{right:-216px;opacity:0} to{right:0;opacity:1}}
+
+.social-animate{position:absolute; animation:social-animate 5s}@keyframes social-animate{from{right:-35px;opacity:0} to{right:0;opacity:1}}
+
+.animate-left{animation:animateleft 5s}@keyframes animateleft{from{left:-160px;opacity:0;}to{left:0;opacity:1;}}
+
+.footer-left-animate{animation:footer-left-animate 5s}@keyframes footer-left-animate{from{left:-1256px;opacity:0;}to{left:0;opacity:1;}}
