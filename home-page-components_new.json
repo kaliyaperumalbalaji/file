@@ -1,0 +1,222 @@
+[
+  {
+    "componentName": "Movies_with_and_without_showtime_component",
+    "componentProps": {
+      "heading": "Book Now",
+      "linkText": "More movies & times",
+      "responseLinkText": "More movies & times",
+      "packsToShow": "upcomingshows",
+      "imageCode": "x322y478",
+      "responsiveImageCode": "",
+      "packId": "24"
+    },
+    "filmDataDependency": true,
+    "gutterTop": false,
+    "gutterBottom": {
+      "desktop": "50px",
+      "responsive": "24px"
+    },
+    "foldId": "section1",
+    "enableformoviespage": true,
+    "urlSafeName": "book-now",
+    "datepicker": true,
+    "releaseDate": false,
+    "metaTitle": "Book Movie Tickets | Marcus Theatres",
+    "metaDescription": "Book movie tickets at Marcus Theatres. Browse showtimes, choose your seats, and complete your booking quickly and easily.",
+    "lazyLoadHeight": 700,
+    "addSelectedDateInPayload": true
+  },
+  {
+    "componentName": "Imagepack_component_with_image_and_content_sidebyside",
+    "componentProps": {
+      "heading": "Special Offers",
+      "linkText": "See all offers",
+      "responseLinkText": "See All",
+      "packsToShow": "specialoffers",
+      "imageCode": "x178y178",
+      "responsiveImageCode": "x206y132",
+      "packId": ""
+    },
+    "filmDataDependency": false,
+    "gutterTop": {
+      "desktop": "50px",
+      "responsive": "24px"
+    },
+    "gutterBottom": {
+      "desktop": "50px",
+      "responsive": "24px"
+    },
+    "foldId": "section2",
+    "enableformoviespage": false,
+    "urlSafeName": "special-offers",
+    "datepicker": false,
+    "releaseDate": false,
+    "lazyLoadHeight": 400,
+    "addSelectedDateInPayload": false
+  },
+  {
+    "componentName": "Movies_component_without_showtimes",
+    "componentProps": {
+      "heading": "Coming Soon",
+      "linkText": "See all movies",
+      "responseLinkText": "See All",
+      "packsToShow": "comingsoon",
+      "imageCode": "x322y478",
+      "responsiveImageCode": "",
+      "packId": "4"
+    },
+    "filmDataDependency": true,
+    "gutterTop": {
+      "desktop": "50px",
+      "responsive": "24px"
+    },
+    "gutterBottom": {
+      "desktop": "100px",
+      "responsive": "48px"
+    },
+    "foldId": "section3",
+    "enableformoviespage": true,
+    "urlSafeName": "coming-soon",
+    "datepicker": false,
+    "releaseDate": true,
+    "metaTitle": "Coming Soon Movies | Marcus Theatres",
+    "metaDescription": "Explore upcoming movies at Marcus Theatres. Check release dates and book now to reserve your seats early.",
+    "lazyLoadHeight": 700,
+    "addSelectedDateInPayload": false
+  },
+  {
+    "componentName": "Special_event_with_showtime_with_landscape_image",
+    "componentProps": {
+      "heading": "International",
+      "linkText": "See all",
+      "responseLinkText": "See all movies",
+      "packsToShow": "international",
+      "imageCode": "x1920y969",
+      "responsiveImageCode": "",
+      "packId": "25"
+    },
+    "filmDataDependency": true,
+    "gutterTop": false,
+    "gutterBottom": {
+      "desktop": "100px",
+      "responsive": "48px"
+    },
+    "foldId": "section4",
+    "enableformoviespage": true,
+    "urlSafeName": "international",
+    "datepicker": false,
+    "releaseDate": false,
+    "metaTitle": "International Movies | Marcus Theatres",
+    "metaDescription": "Book international movie tickets at Marcus Theatres. Explore global films, view showtimes, pick seats, and book with ease.",
+    "lazyLoadHeight": 600,
+    "addSelectedDateInPayload": false
+  },
+  {
+    "componentName": "Special_event_with_showtime_with_landscape_image",
+    "componentProps": {
+      "heading": "Anime",
+      "linkText": "See all",
+      "responseLinkText": "See all movies",
+      "packsToShow": "anime",
+      "imageCode": "x1920y969",
+      "responsiveImageCode": "",
+      "packId": "26"
+    },
+    "filmDataDependency": true,
+    "gutterTop": false,
+    "gutterBottom": {
+      "desktop": "100px",
+      "responsive": "48px"
+    },
+    "foldId": "section5",
+    "enableformoviespage": true,
+    "urlSafeName": "anime",
+    "datepicker": false,
+    "releaseDate": false,
+    "metaTitle": "Anime Movies | Marcus Theatres",
+    "metaDescription": "Watch the latest anime movies at Marcus Theatres. Browse showtimes, select your seats, and book tickets effortlessly.",
+    "lazyLoadHeight": 600,
+    "addSelectedDateInPayload": false
+  },
+  {
+    "componentName": "Special_event_with_showtime_with_landscape_image",
+    "componentProps": {
+      "heading": "Inspirational/Faith-Based",
+      "linkText": "See all",
+      "responseLinkText": "See all movies",
+      "packsToShow": "Inspirational-Faith-Based",
+      "imageCode": "x1920y969",
+      "responsiveImageCode": "",
+      "packId": "27"
+    },
+    "filmDataDependency": true,
+    "gutterTop": false,
+    "gutterBottom": {
+      "desktop": "100px",
+      "responsive": "48px"
+    },
+    "foldId": "section6",
+    "enableformoviespage": true,
+    "urlSafeName": "inspirational-faith-based",
+    "datepicker": false,
+    "releaseDate": false,
+    "metaTitle": "Inspirational & Faith-Based Movies | Marcus Theatres",
+    "metaDescription": "Discover inspirational and faith-based movies at Marcus Theatres. Find showtimes, choose seats, and book tickets easily.",
+    "lazyLoadHeight": 600,
+    "addSelectedDateInPayload": false
+  },
+  {
+    "componentName": "Special_event_with_showtime_with_landscape_image",
+    "componentProps": {
+      "heading": "Classics and Favorites",
+      "linkText": "See all",
+      "responseLinkText": "See all movies",
+      "packsToShow": "classics-and-favorites",
+      "imageCode": "x1920y969",
+      "responsiveImageCode": "",
+      "packId": "28"
+    },
+    "filmDataDependency": true,
+    "gutterTop": false,
+    "gutterBottom": {
+      "desktop": "100px",
+      "responsive": "48px"
+    },
+    "foldId": "section7",
+    "enableformoviespage": true,
+    "urlSafeName": "classics-and-favorites",
+    "datepicker": false,
+    "releaseDate": false,
+    "metaTitle": "Classic & Favorite Movies | Marcus Theatres",
+    "metaDescription": "Enjoy classic and fan-favorite movies at Marcus Theatres. Check showtimes, select seats, and book your tickets today.",
+    "lazyLoadHeight": 600,
+    "addSelectedDateInPayload": false
+  },
+  {
+    "componentName": "Special_event_with_showtime_with_landscape_image",
+    "componentProps": {
+      "heading": "Music and Theatre",
+      "linkText": "See all",
+      "responseLinkText": "See all movies",
+      "packsToShow": "music-and-theatre",
+      "imageCode": "x1920y969",
+      "responsiveImageCode": "",
+      "packId": "29"
+    },
+    "filmDataDependency": true,
+    "gutterTop": false,
+    "gutterBottom": {
+      "desktop": "100px",
+      "responsive": "48px"
+    },
+    "foldId": "section8",
+    "enableformoviespage": true,
+    "urlSafeName": "music-and-theatre",
+    "datepicker": false,
+    "releaseDate": false,
+    "metaTitle": "Music & Theatre Movies | Marcus Theatres",
+    "metaDescription": "Experience music and theatre performances on the big screen at Marcus Theatres. View showtimes and book tickets online.",
+    "lazyLoadHeight": 600,
+    "addSelectedDateInPayload": false
+  }
+]
